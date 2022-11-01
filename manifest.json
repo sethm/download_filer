@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Download Filer",
+    "version": "0.1",
+
+    "description": "Allows you to specify folders to automatically sort downloaded files into based on file name regular expressions.  See https://github.com/sethm/download_filer",
+    "homepage_url": "https://github.com/sethm/download_filer",
+    "permissions": ["downloads", "downloads.open", "storage"],
+    "background": {
+        "scripts": ["download-filer.js"],
+        "persistent": false
+    }
+}
